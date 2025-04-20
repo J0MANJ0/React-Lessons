@@ -23,6 +23,9 @@ import List from './State/Updating Arrays/Inserting'
 import ListB from './State/Updating Arrays/OtherChanges'
 import BucketList from './State/Updating Arrays/UpdatingObjectsInsideArrays'
 import Challenges from './State/Updating Arrays/Challenges'
+import Form from './State/Managing State/Form'
+import FormB from './State/Managing State/StateStructure'
+import Accordion from './State/Managing State/StateBetweenComponents'
 
 function Card({ children }) {
   return (
@@ -95,7 +98,10 @@ const App = () => {
       {/* <List /> */}
       {/* <ListB /> */}
       {/* <BucketList /> */}
-      <Challenges />
+      {/* <Challenges /> */}
+      {/* <Form /> */}
+      {/* <FormB /> */}
+      <Accordion />
     </div>
   )
 }
