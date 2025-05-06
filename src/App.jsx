@@ -26,6 +26,11 @@ import Challenges from './State/Updating Arrays/Challenges'
 import Form from './State/Managing State/Form'
 import FormB from './State/Managing State/StateStructure'
 import Accordion from './State/Managing State/StateBetweenComponents'
+import Quiz from './State/Managing State/Quiz'
+import AppCounter from './State/Preserving-Resetting-State/P-Reset'
+import RenderB from './State/Preserving-Resetting-State/Render'
+import ComponentPosition from './State/Preserving-Resetting-State/Component&Position'
+import Scoreboard from './State/Preserving-Resetting-State/Resetting'
 
 function Card({ children }) {
   return (
@@ -57,9 +62,6 @@ function Avatar({ person, size }) {
 }
 
 const App = () => {
-  const takeShot = (g, e) => {
-    alert(e.type)
-  }
   return (
     <div>
       {/* <Gallery />
@@ -101,7 +103,12 @@ const App = () => {
       {/* <Challenges /> */}
       {/* <Form /> */}
       {/* <FormB /> */}
-      <Accordion />
+      {/* <Accordion /> */}
+      {/* <Quiz /> */}
+      {/* <AppCounter /> */}
+      {/* <RenderB /> */}
+      <ComponentPosition />
+      <Scoreboard />
     </div>
   )
 }
